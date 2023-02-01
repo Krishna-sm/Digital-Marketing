@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+
+.custom-bg
+{
+    background-image: url('../img/bg-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'DynaPuff', cursive;
+
+}
+.bg_1
+{
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+}
+.n1{
+    font-family: 'Crimson Text', serif;
+  
+
+}
+.n5
+{
+    font-family: 'Ramaraja', serif;
+}
+.n2
+{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.n3
+{
+    font-family: 'Marck Script', cursive;
+}
+.img-t:hover
+{
+    border-radius: 20%;
+    transition-duration: 2s;
+    transform: scale(1.1);
+}
+
+ .card-img
+ {
+    border: none !important;
+    transform: none;
+    transition: none;
+ } 
+ .card-img:hover
+ {
+    transform: scale(1);
+ }
+  .item{
+   padding: 5px;
+   margin: 5px;
+  }
+  .item-card{
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .item-card-title{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+  }
+  .item-card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+    height:80px;  
+  }
+  
+  .card::before, .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+  }
+  .card::before {
+    transform-origin: left top;
+  }
+  .card::after {
+    transform-origin: right bottom;
+  }
+  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
+
+
+/* slider Carausal */

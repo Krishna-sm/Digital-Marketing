@@ -1,0 +1,33 @@
+  /*form validation css */ 
+  .container {
+    max-width: 960px;
+  }
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  .border-top-gray { border-top-color: #adb5bd; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  .lh-condensed { line-height: 1.25; }
+  .btn-ut { background-color:#fc46aa; color:white}
+  .bg-t{
+       background-image:url('../img/p-1.jpg');
+       background-size: 287px;
+    width: 300px;
+    height: 300px;
+    margin:auto;
+
+    background-repeat: no-repeat;
+   }
+   .ht{
+      background-image: url('../img/bg-5.png');
+      background-size: 266px;
+      width: 268px;
+      /* height: 100px; */
+   }
+   body{
+    /* background-color:#3aafa9; */
+    background-color:#3a75af;
+}
+   
